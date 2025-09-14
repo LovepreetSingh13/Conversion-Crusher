@@ -25,8 +25,7 @@ This project focuses on analyzing and predicting conversion rates in digital mar
    - **Visualizations**:
      - **Rugplots**: Analyzed the distribution of categories, including mean, quantiles, skewness, and customer behavior insights.
      - **Pie Charts**: Explored data imbalances, especially in conversions (only 12.3% did not convert).
-     - **Correlation Matrix**: Explored weak correlations between variables (Pearson & Spearman).
-     - **Predictive Power Score (PPS)**: Found very low predictive power (0.00) among features.
+     - **Correlation Matrix**: Explored weak correlations between variables
 
 4. **Data Preprocessing:**
    - Dropped unnecessary columns (e.g., `customerID`).
@@ -46,8 +45,7 @@ This project focuses on analyzing and predicting conversion rates in digital mar
      - CatBoost: `0.9463` F1 score (dropped as it performed worst).
 
 6. **Model Evaluation & Metrics:**
-   - Evaluated models using **Confusion Matrix** and **Precision-Recall Curves** to assess performance.
-
+   - Evaluated models using **Confusion Matrix** 
 ## Key Takeaways:
 - **SMOTE** and **undersampling** techniques helped tackle class imbalance effectively.
 - **CatBoost** and **Grid Search CV** tuning yielded the best results on both the original and oversampled datasets.
